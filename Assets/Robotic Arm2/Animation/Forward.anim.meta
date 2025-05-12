@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f1f64f997c2244749939e5cbab0a79d9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206784
+  packageName: Robotic Arm 2
+  packageVersion: 1.0
+  assetPath: Assets/Robotic Arm2/Animation/Forward.anim
+  uploadId: 466110

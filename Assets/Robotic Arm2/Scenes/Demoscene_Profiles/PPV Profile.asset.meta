@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7376f3b74fdb035418e40e739d5517d1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206784
+  packageName: Robotic Arm 2
+  packageVersion: 1.0
+  assetPath: Assets/Robotic Arm2/Scenes/Demoscene_Profiles/PPV Profile.asset
+  uploadId: 466110

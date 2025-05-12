@@ -1,0 +1,65 @@
+{
+    "RoboticArmAgent": {
+        "checkpoints": [
+            {
+                "steps": 1404341,
+                "file_path": "results\\TouchGoalRandomLocation\\RoboticArmAgent\\RoboticArmAgent-1404341.onnx",
+                "reward": -0.22981566128631434,
+                "creation_time": 1746943929.8619394,
+                "auxillary_file_paths": [
+                    "results\\TouchGoalRandomLocation\\RoboticArmAgent\\RoboticArmAgent-1404341.pt"
+                ]
+            },
+            {
+                "steps": 1499952,
+                "file_path": "results\\TouchGoalRandomLocation\\RoboticArmAgent\\RoboticArmAgent-1499952.onnx",
+                "reward": 1.7823292687535286,
+                "creation_time": 1746944219.2765377,
+                "auxillary_file_paths": [
+                    "results\\TouchGoalRandomLocation\\RoboticArmAgent\\RoboticArmAgent-1499952.pt"
+                ]
+            },
+            {
+                "steps": 1999992,
+                "file_path": "results\\TouchGoalRandomLocation\\RoboticArmAgent\\RoboticArmAgent-1999992.onnx",
+                "reward": 0.8912549251690507,
+                "creation_time": 1746944372.7727613,
+                "auxillary_file_paths": [
+                    "results\\TouchGoalRandomLocation\\RoboticArmAgent\\RoboticArmAgent-1999992.pt"
+                ]
+            },
+            {
+                "steps": 2499964,
+                "file_path": "results\\TouchGoalRandomLocation\\RoboticArmAgent\\RoboticArmAgent-2499964.onnx",
+                "reward": 1.1928133130073548,
+                "creation_time": 1746944522.5648072,
+                "auxillary_file_paths": [
+                    "results\\TouchGoalRandomLocation\\RoboticArmAgent\\RoboticArmAgent-2499964.pt"
+                ]
+            },
+            {
+                "steps": 2792346,
+                "file_path": "results\\TouchGoalRandomLocation\\RoboticArmAgent\\RoboticArmAgent-2792346.onnx",
+                "reward": 1.6709821854224975,
+                "creation_time": 1746944611.7682333,
+                "auxillary_file_paths": [
+                    "results\\TouchGoalRandomLocation\\RoboticArmAgent\\RoboticArmAgent-2792346.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2792346,
+            "file_path": "results\\TouchGoalRandomLocation\\RoboticArmAgent.onnx",
+            "reward": 1.6709821854224975,
+            "creation_time": 1746944611.7682333,
+            "auxillary_file_paths": [
+                "results\\TouchGoalRandomLocation\\RoboticArmAgent\\RoboticArmAgent-2792346.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}

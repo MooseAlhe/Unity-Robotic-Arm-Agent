@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 31ff571b344b5b24f9cd78cc474dc480
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206784
+  packageName: Robotic Arm 2
+  packageVersion: 1.0
+  assetPath: Assets/Robotic Arm2/Prefab/Table.prefab
+  uploadId: 466110

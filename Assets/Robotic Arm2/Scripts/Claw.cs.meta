@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 86c15ebe3d34fbc41b4b8d9e8facfe83
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206784
+  packageName: Robotic Arm 2
+  packageVersion: 1.0
+  assetPath: Assets/Robotic Arm2/Scripts/Claw.cs
+  uploadId: 466110
