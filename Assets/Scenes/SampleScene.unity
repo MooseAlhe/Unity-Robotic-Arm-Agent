@@ -5805,14 +5805,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Environment
       objectReference: {fileID: 0}
-    - target: {fileID: 501864988194878698, guid: d8ad1e6b79c71414c9ff1df73da6a2a9, type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 5022602860645237092, guid: 797df2612390b1f479f433e56a0591cc, type: 3}
-    - target: {fileID: 501864988194878698, guid: d8ad1e6b79c71414c9ff1df73da6a2a9, type: 3}
-      propertyPath: m_BehaviorType
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 1652831241898781767, guid: d8ad1e6b79c71414c9ff1df73da6a2a9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

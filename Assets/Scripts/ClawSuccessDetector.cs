@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class ClawSuccessDetector : MonoBehaviour
 {
-    public RoboticArmAgent agent;
+    public LocateAgent agent;
 
     private void OnTriggerEnter(Collider other)
     {

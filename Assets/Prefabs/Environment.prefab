@@ -443,13 +443,16 @@ PrefabInstance:
       addedObject: {fileID: 501864988194878698}
     - targetCorrespondingSourceObject: {fileID: 1061975043026367646, guid: e7edb8fe7acc5d345b6b6c5a53a23c0b, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3527419604055847108}
+      addedObject: {fileID: 1774909934894784971}
     - targetCorrespondingSourceObject: {fileID: 1061975043026367646, guid: e7edb8fe7acc5d345b6b6c5a53a23c0b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8336309426436188034}
     - targetCorrespondingSourceObject: {fileID: 1061975043026367646, guid: e7edb8fe7acc5d345b6b6c5a53a23c0b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7558406851298794478}
+    - targetCorrespondingSourceObject: {fileID: 1061975043026367646, guid: e7edb8fe7acc5d345b6b6c5a53a23c0b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3738533855500150723}
     - targetCorrespondingSourceObject: {fileID: 2908601818210823225, guid: e7edb8fe7acc5d345b6b6c5a53a23c0b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5308054710723337849}
@@ -553,7 +556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b8b693780566448994bd6631cc19ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 3527419604055847108}
+  agent: {fileID: 1774909934894784971}
 --- !u!1 &845960804252000863 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1061975043026367646, guid: e7edb8fe7acc5d345b6b6c5a53a23c0b, type: 3}
@@ -581,16 +584,16 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
+  m_Model: {fileID: 5022602860645237092, guid: 797df2612390b1f479f433e56a0591cc, type: 3}
   m_InferenceDevice: 0
-  m_BehaviorType: 0
+  m_BehaviorType: 2
   m_BehaviorName: RoboticArmAgent
   TeamId: 0
   m_UseChildSensors: 1
   m_UseChildActuators: 1
   m_DeterministicInference: 0
   m_ObservableAttributeHandling: 0
---- !u!114 &3527419604055847108
+--- !u!114 &1774909934894784971
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -599,7 +602,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 845960804252000863}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f27d63c022c7b3488aecefd4224e204, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d9dec5185361f749aea824108c9f850, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   agentParameters:
@@ -615,7 +618,6 @@ MonoBehaviour:
   _clawTip: {fileID: 7578432440011310944}
   _target: {fileID: 4345213850012310211}
   _floorMeshRenderer: {fileID: 4889276783568360193}
-  _hasTouchedGoal: 0
   _rotationSpeed: 90
 --- !u!114 &8336309426436188034
 MonoBehaviour:
@@ -646,6 +648,22 @@ MonoBehaviour:
   DecisionPeriod: 1
   DecisionStep: 0
   TakeActionsBetweenDecisions: 1
+--- !u!114 &3738533855500150723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845960804252000863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b6042bc9a5d4aa58d931eae49442e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 0
 --- !u!4 &988779156064801579 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 628613977911264746, guid: e7edb8fe7acc5d345b6b6c5a53a23c0b, type: 3}
@@ -695,7 +713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b8b693780566448994bd6631cc19ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 3527419604055847108}
+  agent: {fileID: 1774909934894784971}
 --- !u!114 &9121895081932676081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -708,7 +726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9e33e4d213021146b49df54f89fd112, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 3527419604055847108}
+  agent: {fileID: 1774909934894784971}
 --- !u!1 &3268766169572604664 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2908601818210823225, guid: e7edb8fe7acc5d345b6b6c5a53a23c0b, type: 3}
@@ -726,7 +744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b8b693780566448994bd6631cc19ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 3527419604055847108}
+  agent: {fileID: 1774909934894784971}
 --- !u!65 &9095304234897461767
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -792,7 +810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b8b693780566448994bd6631cc19ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 3527419604055847108}
+  agent: {fileID: 1774909934894784971}
 --- !u!4 &4460301986374275148 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4100454292202997389, guid: e7edb8fe7acc5d345b6b6c5a53a23c0b, type: 3}
@@ -847,7 +865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b8b693780566448994bd6631cc19ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 3527419604055847108}
+  agent: {fileID: 1774909934894784971}
 --- !u!4 &7578432440011310944 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7795045223278137761, guid: e7edb8fe7acc5d345b6b6c5a53a23c0b, type: 3}
@@ -892,7 +910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b8b693780566448994bd6631cc19ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 3527419604055847108}
+  agent: {fileID: 1774909934894784971}
 --- !u!1 &8171462722109899900 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8387759140214641341, guid: e7edb8fe7acc5d345b6b6c5a53a23c0b, type: 3}
@@ -932,7 +950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b8b693780566448994bd6631cc19ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 3527419604055847108}
+  agent: {fileID: 1774909934894784971}
 --- !u!114 &6753266058408719868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -945,7 +963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9e33e4d213021146b49df54f89fd112, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 3527419604055847108}
+  agent: {fileID: 1774909934894784971}
 --- !u!1 &8744544024953296497 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8960839478858580144, guid: e7edb8fe7acc5d345b6b6c5a53a23c0b, type: 3}
@@ -985,7 +1003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b8b693780566448994bd6631cc19ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 3527419604055847108}
+  agent: {fileID: 1774909934894784971}
 --- !u!1 &8816238069607884531 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9176086036515811378, guid: e7edb8fe7acc5d345b6b6c5a53a23c0b, type: 3}
@@ -1003,7 +1021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b8b693780566448994bd6631cc19ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 3527419604055847108}
+  agent: {fileID: 1774909934894784971}
 --- !u!65 &5352038249532958867
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -4,7 +4,7 @@ using Unity.MLAgents.Sensors;
 using Unity.MLAgents.Actuators;
 
 
-public class RoboticArmAgent : Agent
+public class LocateAgent : Agent
 {
     [SerializeField] private Transform _env;
 
