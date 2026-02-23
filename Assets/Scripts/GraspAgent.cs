@@ -116,4 +116,22 @@ public class GraspAgent : Agent
         targetRotation.y = _initialRotation.y + _currentAngle;
         _claw.localEulerAngles = targetRotation;
     }
+
+    private void GraspObject(GameObject obj)
+    {
+        if (obj == null || _objectGrasped)
+            return;
+        _heldObject = obj;
+        _objectGrasped = true;
+        _heldObject.transform.SetParent(_claw);
+    }
+
+    private void ReleaseObject()
+    {
+        if (_heldObject == null)
+            return;
+        _heldObject.transform.SetParent(_env);
+        _heldObject = null;
+        _objectGrasped = false;
+    }
 }
